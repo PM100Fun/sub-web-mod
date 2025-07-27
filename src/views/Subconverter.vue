@@ -447,8 +447,8 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
-          "混合订阅（mixed）": "mixed",
           "自动判断客户端": "auto",
+          "混合订阅（mixed）": "mixed",
           "Surge4/5": "surge&ver=4",
           "Sing-Box": "singbox",
           V2Ray: "v2ray",
