@@ -1017,7 +1017,7 @@ export default {
       }
     },
     tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="欢迎光临大咕咕鸡！</br></div>`, '信息面板', {
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color:red">内容1</span></strong></br><strong><span style="font-size:20px">内容2</span><span><a href="https://t.me/" target="_blank" style="color:red;font-size:20px;text-decoration:none">内容3</a></span></strong></br><strong><span style="font-size:20px">内容4（<span style="color:blue">内容5</span>）：</span><span><a href="https://www.google.com" style="color:red;font-size:20px;text-decoration:none">内容6</a></span></strong></br><strong><span style="font-size:20px">内容7（<span style="color:blue">内容8</span>）：</span><span><a href="https://google.com/" style="color:red;font-size:20px;text-decoration:none">内容9</a></span></strong></br><strong><span style="font-size:20px">内容10</span><span><a href="https://google.com/" target="_blank" style="color:red;font-size:20px;text-decoration:none">内容11</a></span></strong></br>内容11</br></div>`, '公告', {
         confirmButtonText: '确定',
         dangerouslyUseHTMLString: true,
         customClass: 'msgbox'
