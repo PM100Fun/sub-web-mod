@@ -499,6 +499,10 @@ export default {
             label: "通用",
             options: [
               {
+                label: "Basic",
+                value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini"
+              }
+              {
                 label: "默认大咕咕鸡",
                 value: "https://raw.githubusercontent.com/pm100fun/subconverter-mod/master/base/config/example_external_config.ini"
               },
