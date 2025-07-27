@@ -447,12 +447,13 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
+          "混合订阅（mixed）": "mixed",
+          "自动判断客户端": "auto",
           "Surge4/5": "surge&ver=4",
           "Sing-Box": "singbox",
           V2Ray: "v2ray",
           Trojan: "trojan",
           ShadowsocksR: "ssr",
-          "混合订阅（mixed）": "mixed",
           Surfboard: "surfboard",
           Quantumult: "quan",
           "Quantumult X": "quanx",
@@ -464,9 +465,9 @@ export default {
           "Shadowsocks(SIP002)": "ss",
           "Shadowsocks Android(SIP008)": "sssub",
           ShadowsocksD: "ssd",
-          "自动判断客户端": "auto",
         },
         shortTypes: {
+          "bigguguchick": "https://suo.bigguguchick.vip:2025/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -474,6 +475,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "大咕咕咕鸡": "https://apisub.bigguguchick.vip:2025",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
@@ -483,6 +485,7 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io",
         },
         backendOptions: [
+          {value: "https://apisub.bigguguchick.vip:2025"},
           {value: "https://url.v1.mk"},
           {value: "https://sub.d1.mk"},
           {value: "https://api.tsutsu.one"},
@@ -496,7 +499,11 @@ export default {
             label: "通用",
             options: [
               {
-                label: "默认",
+                label: "默认大咕咕鸡",
+                value: "https://raw.githubusercontent.com/pm100fun/subconverter-mod/master/base/config/example_external_config.ini"
+              },
+              {
+                label: "默认（原）",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
               {
@@ -889,9 +896,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
+        customBackend: this.getUrlParam() == "" ? "https://sub.bigguguchick.vip:2025" : this.getUrlParam(),
+        shortType: "https://suo.bigguguchick.vip:2025/short",
+        remoteConfig: "https://raw.githubusercontent.com/pm100fun/subconverter-mod/master/base/config/example_external_config.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
