@@ -896,7 +896,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://sub.bigguguchick.vip:2025" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://apisub.bigguguchick.vip:2025" : this.getUrlParam(),
         shortType: "https://suo.bigguguchick.vip:2025/short",
         remoteConfig: "https://raw.githubusercontent.com/pm100fun/subconverter-mod/master/base/config/example_external_config.ini",
         excludeRemarks: "",
