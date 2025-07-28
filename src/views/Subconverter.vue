@@ -467,7 +467,7 @@ export default {
           ShadowsocksD: "ssd",
         },
         shortTypes: {
-          "bigguguchick": "https://suo.bigguguchick.vip:2025/short",
+          "bggc": "https://suo.bigguguchick.vip:2025/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -475,7 +475,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "大咕咕咕鸡": "https://apisub.bigguguchick.vip:2025",
+          "大咕咕咕鸡后端": "https://apisub.bigguguchick.vip:2025",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
@@ -888,10 +888,6 @@ export default {
               {
                 label: "NeteaseUnblock",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
-              },
-              {
-                label: "Basic",
-                value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini"
               }
             ]
           }
