@@ -884,6 +884,10 @@ export default {
               {
                 label: "NeteaseUnblock",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
+              },
+              {
+                label: "Basic",
+                value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini"
               }
             ]
           }
